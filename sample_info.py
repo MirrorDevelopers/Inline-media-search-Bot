@@ -1,9 +1,9 @@
 # Bot information
-SESSION = 'LeoMediaSearchBot'
+SESSION = 'ModAppBot'
 USER_SESSION = 'User_Bot'
-API_ID = 12345
-API_HASH = '0123456789abcdef0123456789abcdef'
-BOT_TOKEN = '123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11'
+API_ID = 8834696
+API_HASH = '1bff51d7116ad155e9cc1dd8c907aa8f'
+BOT_TOKEN = '2123005607:AAGUppmm9MqRK5m7uyeawlOekOznb7CAWWI'
 USERBOT_STRING_SESSION = ''
 
 # Bot settings
@@ -12,8 +12,8 @@ CACHE_TIME = 300
 USE_CAPTION_FILTER = False
 
 # Admins, Channels & Users
-ADMINS = [12345789, 'admin123', 98765432]
-CHANNELS = [-10012345678, -100987654321, 'channelusername']
+ADMINS = [1669993400, 'admin123', 1669993400]
+CHANNELS = [-1001762252588, 'channelusername']
 AUTH_USERS = []
 AUTH_CHANNEL = None
 
@@ -26,10 +26,10 @@ COLLECTION_NAME = 'channel_files'  # If you are using the same database, then us
 START_MSG = """
 **Hi {}👋
 
-I'm Leo Media Search Bot**
+I'm Mod App Bot**
 
 You can start searching by the "Search Media 🔎
 """
 
 SHARE_BUTTON_TEXT = 'Checkout {username} for searching files'
-INVITE_MSG = 'You cant use this bot untill you join our bot🙁 So please join our Updates Channel 🇱🇰'
+INVITE_MSG = 'You cant use this bot untill you join our bot🙁 So please join our Updates Channel'
