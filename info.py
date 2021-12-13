@@ -11,7 +11,7 @@ APP_ID = int(environ['APP_ID'])
 API_HASH = environ['API_HASH']
 BOT_TOKEN = environ['BOT_TOKEN']
 USERBOT_STRING_SESSION = environ.get('USERBOT_STRING_SESSION')
-BOT_OWNER = int(os.environ.get("BOT_OWNER", 1069002447))
+BOT_OWNER = int(os.environ.get("BOT_OWNER", 1669993400))
 BOT_USERNAME = os.environ.get("BOT_USERNAME")
 
 # Bot settings
@@ -54,14 +54,14 @@ You can start searching by the "Search Mod 🔎" button below 😊
 """
 
 default_share_button_text = """
-Mod app  Search Bot 🇱🇰
+Mod app  Search Bot
 
-Here you can find any media file by searching its name 😊
+Here you can find any App by searching its name 😊
 
 Bot : {username} 🤖
-Support Group : @slbotzone  🇱🇰
-Updates Channel: @sl_bot_zone 🇱🇰
-Developper : @supunma🇱🇰
+Support Group : @DarkFinityBots
+Updates Channel: @TeamInfinityGO
+Developper : @TheBusyDev
 """
 
 START_MSG = environ.get('START_MSG', default_start_massege)
