@@ -60,7 +60,7 @@ async def answer(bot, query):
                            next_offset=str(next_offset))
     else:
 
-        switch_pm_text = f'{emoji.CROSS_MARK}No  files   Found in This name 🙁'
+        switch_pm_text = f'{emoji.CROSS_MARK}No Apps  Found in This name 🙁'
         if string:
             switch_pm_text += f' for "{string}"'
 
@@ -79,8 +79,8 @@ def get_reply_markup(username, query):
         ],
 
         [
-           InlineKeyboardButton('Updates Channel 🔔 ', url='https://t.me/sl_bot_zone'),
-           InlineKeyboardButton('Subscribe & help 💡 ', url='https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA'),
+           InlineKeyboardButton('Updates Channel 🔔 ', url='https://t.me/TeamInfinityGo),
+           InlineKeyboardButton('Subscribe 💡 ', url='https://www.t.me/TeamInfinityGo'),
         ],
     ]
     return InlineKeyboardMarkup(buttons)
